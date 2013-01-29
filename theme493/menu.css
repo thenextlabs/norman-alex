@@ -1,0 +1,39 @@
+/* CSS Document for primary links */
+.yuimenubar{visibility:visible;position:static;}
+.yuimenu .yuimenu,.yuimenubar .yuimenu{visibility:hidden;position:absolute;top:-10000px;left:-10000px;}
+.yui-menu-shadow{position:absolute;visibility:hidden;z-index:-1;}
+
+.yuimenubar ul, .yuimenu ul { list-style-type:none;}
+
+.yuimenubar ul, .yuimenu ul, .yuimenubar li, .yuimenu li, .yuimenu h6, .yuimenubar h6 { margin:0; padding:0;}
+#productsandservices { overflow:hidden; padding-left:0px; position:relative; z-index:1}
+
+.yuimenuitemlabel, .yuimenubaritemlabel { white-space:nowrap;}
+
+.hide-scrollbars * { overflow:hidden;}
+
+.hide-scrollbars select { display:none;}
+
+.yuimenu.show-scrollbars { overflow:visible;}
+
+.yui-skin-sam .yuimenubar > .bd > ul:after { clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden; }
+
+
+.yui-skin-sam .yuimenubaritem { float:left;}
+
+.yui-skin-sam .yuimenubarnav .yuimenubaritem { line-height:1.42em; }
+
+.yui-skin-sam .yuimenubaritemlabel { display:block; *position:relative; text-decoration:none; text-align:center; background:none; text-transform:uppercase; line-height:1.42em; color:#343434; padding:30px 17px 7px 17px;}
+.yui-skin-sam .yuimenubaritemlabel-selected, .yui-skin-sam .yuimenubaritem a.active, .yui-skin-sam .yuimenubaritem-hassubmenu-selected{ color:#284898;}
+
+.yui-skin-sam .yuimenubarnav .yuimenubaritemlabel {	font-size:12px !important; line-height:1.42em;}
+/** + html .yui-skin-sam .yuimenubarnav .yuimenubaritemlabel { padding:5px 0px 0px 0px; }*/
+
+
+.yui-skin-sam .yuimenu .bd { left:0; top:0; overflow:hidden; width:250px; background:url(images/bg-drop.gif) no-repeat 0 0 #efefef;}
+.yui-skin-sam .yuimenu ul { padding:12px 0px 10px 0;}
+
+.yui-skin-sam .yuimenuitemlabel{ font-size:12px; color:#343434; line-height:30px; padding-left:18px; text-decoration:none; text-transform:uppercase;}
+.yui-skin-sam .yuimenuitemlabel-selected, .yui-skin-sam .bd .yuimenuitem a.active{ background:#284898; color:#fff; overflow:hidden; display:block;}
+/*.first-of-type a, .first-of-type li a.active, a.yuimenubaritemlabel  { font-size:34px; color:#fff; text-transform:uppercase;}*/ /***For IE with cufon***/ 
+

@@ -1,0 +1,20 @@
+; $Id: theme493.info,v 1.5 Exp $
+name = theme493
+description = this template is made by template-help.com.
+version = 6.17
+core = 6.x
+engine = phptemplate
+
+version = "6.17"
+project = "drupal"
+datestamp = "1202913006"
+
+php = DRUPAL_MINIMUM_PHP
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[rightmenu] = Right Menu
+regions[rightheader] = Right Header
+regions[content] = content
+regions[custom] = custom
+regions[slider] = slider

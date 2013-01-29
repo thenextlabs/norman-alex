@@ -1,0 +1,85 @@
+/* CSS Document for primary links */
+body#splash { height:100%;}
+
+* { font-family:Arial, Helvetica, sans-serif;}
+.yuimenubar{visibility:visible;position:static;}
+.yuimenu .yuimenu,.yuimenubar .yuimenu{visibility:hidden;position:absolute;top:-10000px;left:-10000px;}
+.yui-menu-shadow{position:absolute;visibility:hidden;z-index:-1;}
+
+.yuimenubar ul, .yuimenu ul { list-style-type:none;}
+
+.yuimenubar ul, .yuimenu ul, .yuimenubar li, .yuimenu li, .yuimenu h6, .yuimenubar h6 { margin:0; padding:0;}
+#productsandservices { overflow:hidden; padding-left:0px; position:relative; z-index:1}
+
+.yuimenuitemlabel, .yuimenubaritemlabel { white-space:nowrap;}
+
+.hide-scrollbars * { overflow:hidden;}
+
+.hide-scrollbars select { display:none;}
+
+.yuimenu.show-scrollbars { overflow:visible;}
+
+
+.yui-skin-sam .yuimenubar > .bd > ul:after { clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden; }
+
+.yui-skin-sam .yuimenubaritem { float:left;}
+
+.yui-skin-sam .yuimenubarnav .yuimenubaritem { line-height:1.42em; margin-right:11px;}
+
+.yui-skin-sam .yuimenubaritemlabel { display:block; *position:relative; text-decoration:none; text-align:center; background:none; text-transform:uppercase; line-height:1.42em; color:#fff}
+.yui-skin-sam .yuimenubaritemlabel-selected, .yui-skin-sam .yuimenubaritem a.active, .yui-skin-sam .yuimenubaritem-hassubmenu-selected{ color:#fff;}
+
+.yui-skin-sam .yuimenubarnav .yuimenubaritemlabel {	font-size:34px !important; line-height:1.42em; font-weight:bold;}
+/** + html .yui-skin-sam .yuimenubarnav .yuimenubaritemlabel { padding:5px 0px 0px 0px; }*/
+
+
+.yui-skin-sam .yuimenu .bd { left:0; top:0; overflow:hidden; width:151px;}
+.yui-skin-sam .yuimenu ul { padding:10px 19px;}
+
+.yui-skin-sam li.first-of-type a.active, .yui-skin-sam li.first-of-type a.yuimenubaritemlabel-selected { }
+
+/*.yui-skin-sam .yuimenubarnav .yuimenubaritemlabel-hassubmenu-selected, .yui-skin-sam .yuimenubaritem-hassubmenu a.active{background:none;}*/
+
+.yui-skin-sam .yuimenuitemlabel{ font-size:14px; color:#fff; line-height:25px; padding-left:12px; text-decoration:none; text-transform:uppercase; font-weight:bold;}
+.yui-skin-sam .yuimenuitemlabel-selected, .yui-skin-sam .bd .yuimenuitem a.active{ overflow:hidden; display:block; color:#af4b3e; background:url(images/drop-hover.png) no-repeat 0 0}
+
+#yui-gen0 { width:130px; background:url(images/bg-li.png) no-repeat 0 0;}
+#yui-gen0 a.yuimenubaritemlabel { padding:95px 0px 0 0; height:115px;} 
+#yui-gen0 .bd { background:url(images/bg-li-drop.png) no-repeat 0 bottom; margin-top:-12px; width:130px;}
+#yui-gen0 .yuimenuitemlabel-selected, #yui-gen0 .bd .yuimenuitem a.active { color:#95d4b5}
+
+#yui-gen1 { width:130px; background:url(images/bg-li2.png) no-repeat 0 0;}
+#yui-gen1 a.yuimenubaritemlabel { padding:95px 0px 0 0; height:115px;} 
+#yui-gen1 .bd { background:url(images/bg-li2-drop.png) no-repeat 0 bottom; margin-top:-12px; width:130px;}
+#yui-gen1 .yuimenuitemlabel-selected, #yui-gen1 .bd .yuimenuitem a.active { color:#f7c609}
+
+#yui-gen2 { width:130px; background:url(images/bg-li3.png) no-repeat 0 0;}
+#yui-gen2 a.yuimenubaritemlabel { padding:95px 0px 0 0; height:115px;} 
+#yui-gen2 .bd { background:url(images/bg-li3-drop.png) no-repeat 0 bottom; margin-top:-12px; width:130px;}
+#yui-gen2 .yuimenuitemlabel-selected, #yui-gen2 .bd .yuimenuitem a.active { color:#c01349}
+
+#yui-gen3 { width:130px; background:url(images/bg-li2.png) no-repeat 0 0;}
+#yui-gen3 a.yuimenubaritemlabel { padding:95px 0px 0 0; height:115px;} 
+#yui-gen3 .bd { background:url(images/bg-li2-drop.png) no-repeat 0 bottom; margin-top:-12px; width:130px;}
+#yui-gen3 .yuimenuitemlabel-selected, #yui-gen3 .bd .yuimenuitem a.active { color:#f7c609}
+
+#yui-gen4 { width:130px; background:url(images/bg-li.png) no-repeat 0 0;  margin-right:0;}
+#yui-gen4 a.yuimenubaritemlabel { padding:95px 0px 0 0; height:115px;} 
+#yui-gen4 .bd { background:url(images/bg-li-drop.png) no-repeat 0 bottom; margin-top:-12px; width:130px;}
+#yui-gen4 .yuimenuitemlabel-selected, #yui-gen4 .bd .yuimenuitem a.active { color:#95d4b5}
+
+.first-of-type a, .first-of-type li a.active, a.yuimenubaritemlabel  { font-size:34px; color:#fff; text-transform:uppercase;}
+
+/*********---SPLASH STYLES---**********/
+#splash { background:url(images/splash.jpg) no-repeat center center;}
+#splash .min-width, #splash #main{ height:100%;}
+.logo-img { float:left; margin-right:12px;}
+.splash-outer { display:table; width:980px; height:100%;}
+.splash-cont { display:table-cell; vertical-align:middle;}
+
+#footer-splash { color:#fff; font-size:12px; text-align:center; width:100%; overflow:hidden; position:absolute; bottom:0; height:50px; left:0; margin:0; background:#000000;}
+.foot { text-align:center; margin:0 auto; width:980px; padding:19px 0px 19px 0px;}
+#footer-splash a { color:#fff; text-decoration:none; font-weight:bold;}
+#footer-splash a:hover{ text-decoration:underline;}
+#footer-splash .foot span { padding-right:20px;}
+/*********---SPLASH STYLES---**********/

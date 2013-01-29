@@ -1,0 +1,31 @@
+.faq span { font-weight:bold; font-size:14px !important;}
+
+.services .columns { width:100%; overflow:hidden; padding-bottom:20px;}
+.services .column-left { width:40%; float:left;}
+.services .column-right { width:55%; float:right;}
+
+.aboutus .columns { width:100%; overflow:hidden;}
+.aboutus .column-left { width:45%; float:left;}
+.aboutus .column-right { width:45%; float:right;}
+.aboutus span { font-weight:bold; font-size:12px !important; color:#0462ae}
+.content { padding:0px 10px 0px 0px; color:#828282; line-height:18px; font-size:12px;}
+
+.links-content .columns { width:100%; overflow:hidden; padding-bottom:20px;}
+.links-content .column-left { width:45%; float:left;}
+.links-content .column-right { width:45%; float:right;}
+
+.blocks2 { overflow:hidden; width:100%;}
+.blocks2 .inner { padding:0px 0px 15px 0px;}
+.blocks2 div.list, .blocks2 div.list2 { float:left; width:200px;}
+.blocks2 div.list3 { width:170px; float:left;}
+.blocks2 div ul { margin-left:6px;}
+
+.list, .list2 { margin-right:3px;}
+
+.list-col { float:left; margin-right:30px;}
+a.cont-more { font-size:14px !important; font-weight:bold !important;}
+
+h4 {color:#000; font-size:22px; font-weight:normal; padding-bottom:10px; padding-top:10px;}
+
+img.alignleft{ float:left; margin-right:20px;}
+img.alignright{ float:right; margin-left:25px; }
