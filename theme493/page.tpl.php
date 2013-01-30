@@ -95,7 +95,7 @@ window.onload=init
 
         <div class="social-media">
             <span class="twitter">
-                <a href="https://twitter.com/normanalex" class="twitter-follow-button" data-button="grey" data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false">Follow @normanalex</a>
+                <a href="https://twitter.com/ivormonaco" class="twitter-follow-button" data-button="grey" data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false">Follow @ivormonaco</a>
                 <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
             </span>
      <span class="viadeo"><a title="ViadeoShare" href="javascript:location.href='http://www.viadeo.com/shareit/share/?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title)+'&overview='+encodeURIComponent(document.title)+'&urllanguage=fr&urlaffiliate=32003&encoding=UTF-8&urlpicture=http://www.viadeo.com/images/shareit/viadeoflower.gif'" target="_blank"><img src="http://www.viadeo.com/images/shareit/shareitMenu_flower.gif" /></a>
